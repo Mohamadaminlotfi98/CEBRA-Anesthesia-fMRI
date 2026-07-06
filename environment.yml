@@ -1,0 +1,22 @@
+name: cebra-anesthesia
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - pytorch
+  - jupyter
+  - ipykernel
+  - pip
+  - pip:
+      - nibabel
+      - nilearn
+      - cebra
+      - git+https://github.com/dynamical-inference/ituna.git
